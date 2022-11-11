@@ -7,10 +7,27 @@
 	box-sizing: border-box;
 }
 
-
-
+.header-search.only-mobile{
+	position: relative;
+	margin: 0 -15px;
+	padding: 0 15px;
+	background-color: #ffffff;
+}
+.main{
+	padding-top: 0;
+	overflow: hidden;
+}
+.main>.container{
+	max-width:100%;
+}
+body{
+	background-color: #13081C;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
 .wrp {
 	position: relative;
+	font-family: $font1;
 }
 
 
@@ -59,10 +76,36 @@
 
 }
 
+.newyear2023-btn{
+	display: block;
+	max-width: fit-content;
+	margin: 0 auto;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	user-select: none;
+	border: 1px solid #0DBA6C;
+	border-radius: 5px;
+	padding: 17px 70px 16px;
+	cursor: pointer;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	text-decoration: none;
+	font-family: $font1;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 17px;
+	color: #BCFFFB;
+	background-color: transparent;
+}
 
 
 
-@import "componets/header";
+
+@import "componets/newyear2023-hero";
+@import "componets/newyear2023-content";
+@import "componets/newyear2023-block";
+@import "componets/newyear2023-block-item";
 
 
 
