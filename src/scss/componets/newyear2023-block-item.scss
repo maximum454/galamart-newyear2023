@@ -1,7 +1,9 @@
 .newyear2023-block-item{
   flex: 1 0 calc(25% - 20px);
   max-width: 100%;
-
+  &.show{
+    display: block!important;
+  }
   &__figure{
     display: block;
     background: linear-gradient(180deg, #191438 0%, #112A30 100%);
