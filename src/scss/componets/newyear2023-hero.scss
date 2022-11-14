@@ -2,13 +2,13 @@
   margin-bottom: 11px;
   padding-top: 79px;
   &__body{
-    max-width: 1132px;
-    padding: 0 16px;
+    max-width: 1252px;
+    padding: 0 20px;
     margin: 0 auto;
   }
   &__title-img{
     margin-bottom: 15px;
-    margin-left: -33px;
+    margin-left: 23px;
     img{
     }
   }
@@ -16,6 +16,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-left: 57px;
+    gap: 20px;
   }
   &__text{
     font-family: 'Montserrat';
@@ -26,13 +28,28 @@
     max-width: 363px;
   }
   &__img{
-    margin-right: -56px;
+  }
+  @include r(1023){
+    &__title-img{
+      margin-left: 0;
+    }
+    &__row{
+      padding-left: 0;
+    }
   }
   @include r(767){
+    padding-top: 35px;
+    margin-bottom: 31px;
+    &__title-img{
+      margin-bottom: 7px;
+    }
     &__text{
       min-width: 135px;
       font-size: 12px;
       line-height: 15px;
+    }
+    &__row{
+      gap: 10px;
     }
   }
 }

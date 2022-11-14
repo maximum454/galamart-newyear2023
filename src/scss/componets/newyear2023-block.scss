@@ -34,8 +34,8 @@
     }
   }
   &__body{
-    max-width: 1134px;
-    padding: 0 16px;
+    max-width: 1140px;
+    padding: 0 20px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -43,6 +43,33 @@
   }
   &__footer{
     margin-top: 74px;
+  }
+  @include r(767){
+    margin-bottom: 100px;
+    &__header{
+      font-size: 20px;
+      line-height: 24px;
+      margin-bottom: 39px;
+      &:before,
+      &:after {
+        margin-top: 2px;
+      }
+      &:before {
+        left: -48px;
+      }
+      &:after {
+        right: -48px;
+      }
+      span {
+        max-width: 120px;
+      }
+    }
+    &__body{
+      gap: 26px 9px;
+    }
+    &__footer{
+      margin-top: 51px;
+    }
   }
 }
 

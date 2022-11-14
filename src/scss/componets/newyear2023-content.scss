@@ -4,8 +4,8 @@
     text-align: center;
   }
   &__body{
-    max-width: 1132px;
-    padding: 0 16px;
+    max-width: 1140px;
+    padding: 0 20px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -64,7 +64,8 @@
       max-width: 278px;
       p{
         font-size: 14px;
-        line-height: 18px;
+        line-height: 17px;
+        margin-bottom: 14px;
       }
     }
     &__img{

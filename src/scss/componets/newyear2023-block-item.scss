@@ -52,5 +52,36 @@
   }
   @include r(767){
     flex: 1 0 calc(50% - 20px);
+    &:nth-child(n+5){
+      display: none;
+    }
+    &__figure{
+
+      border-radius: 34px;
+      padding: 5px;
+      margin: 0 0 20px;
+      img{
+        border-radius: 34px;
+      }
+    }
+    &__name{
+      font-size: 12px;
+      line-height: 15px;
+      height: 44px;
+      -webkit-line-clamp: 3;
+      margin: 0 0 17px;
+    }
+    &__row{
+      justify-content: space-between;
+      gap: 10px;
+    }
+    &__price{
+      font-size: 14px;
+      line-height: 17px;
+    }
+    .newyear2023-btn{
+      padding: 2px 30px 2px;
+      margin: 0;
+    }
   }
 }

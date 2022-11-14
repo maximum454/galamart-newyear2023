@@ -426,14 +426,14 @@ body {
 }
 
 .newyear2023-hero__body {
-  max-width: 1132px;
-  padding: 0 16px;
+  max-width: 1252px;
+  padding: 0 20px;
   margin: 0 auto;
 }
 
 .newyear2023-hero__title-img {
   margin-bottom: 15px;
-  margin-left: -33px;
+  margin-left: 23px;
 }
 
 .newyear2023-hero__row {
@@ -446,6 +446,8 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-left: 57px;
+  gap: 20px;
 }
 
 .newyear2023-hero__text {
@@ -457,10 +459,6 @@ body {
   max-width: 363px;
 }
 
-.newyear2023-hero__img {
-  margin-right: -56px;
-}
-
 .newyear2023-content {
   margin: 0 0 103px;
 }
@@ -470,8 +468,8 @@ body {
 }
 
 .newyear2023-content__body {
-  max-width: 1132px;
-  padding: 0 16px;
+  max-width: 1140px;
+  padding: 0 20px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -557,8 +555,8 @@ body {
 }
 
 .newyear2023-block__body {
-  max-width: 1134px;
-  padding: 0 16px;
+  max-width: 1140px;
+  padding: 0 20px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -638,6 +636,14 @@ body {
 }
 
 @media only screen and (max-width: 1023px) {
+  .newyear2023-hero__title-img {
+    margin-left: 0;
+  }
+
+  .newyear2023-hero__row {
+    padding-left: 0;
+  }
+
   .newyear2023-content__title {
     font-size: 30px;
     line-height: 39px;
@@ -667,10 +673,23 @@ body {
     display: none !important;
   }
 
+  .newyear2023-hero {
+    padding-top: 35px;
+    margin-bottom: 31px;
+  }
+
+  .newyear2023-hero__title-img {
+    margin-bottom: 7px;
+  }
+
   .newyear2023-hero__text {
     min-width: 135px;
     font-size: 12px;
     line-height: 15px;
+  }
+
+  .newyear2023-hero__row {
+    gap: 10px;
   }
 
   .newyear2023-content__title {
@@ -687,7 +706,8 @@ body {
 
   .newyear2023-content__text p {
     font-size: 14px;
-    line-height: 18px;
+    line-height: 17px;
+    margin-bottom: 14px;
   }
 
   .newyear2023-content__img {
@@ -698,9 +718,83 @@ body {
     margin-left: -40px;
   }
 
+  .newyear2023-block {
+    margin-bottom: 100px;
+  }
+
+  .newyear2023-block__header {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 39px;
+  }
+
+  .newyear2023-block__header:before,
+  .newyear2023-block__header:after {
+    margin-top: 2px;
+  }
+
+  .newyear2023-block__header:before {
+    left: -48px;
+  }
+
+  .newyear2023-block__header:after {
+    right: -48px;
+  }
+
+  .newyear2023-block__header span {
+    max-width: 120px;
+  }
+
+  .newyear2023-block__body {
+    gap: 26px 9px;
+  }
+
+  .newyear2023-block__footer {
+    margin-top: 51px;
+  }
+
   .newyear2023-block-item {
     -webkit-box-flex: 1;
         -ms-flex: 1 0 calc(50% - 20px);
             flex: 1 0 calc(50% - 20px);
+  }
+
+  .newyear2023-block-item:nth-child(n+5) {
+    display: none;
+  }
+
+  .newyear2023-block-item__figure {
+    border-radius: 34px;
+    padding: 5px;
+    margin: 0 0 20px;
+  }
+
+  .newyear2023-block-item__figure img {
+    border-radius: 34px;
+  }
+
+  .newyear2023-block-item__name {
+    font-size: 12px;
+    line-height: 15px;
+    height: 44px;
+    -webkit-line-clamp: 3;
+    margin: 0 0 17px;
+  }
+
+  .newyear2023-block-item__row {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 10px;
+  }
+
+  .newyear2023-block-item__price {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .newyear2023-block-item .newyear2023-btn {
+    padding: 2px 30px 2px;
+    margin: 0;
   }
 }
