@@ -1,6 +1,8 @@
 @import "mixin";
 @import "fonts";
 @import "buttons";
+@import "./partials/formstyler";
+@import "./partials/formstyler.theme";
 
 
 * {
@@ -101,7 +103,81 @@ body{
 	background-color: transparent;
 }
 
+.jq-selectbox.focused .jq-selectbox__select{
+	border: 1px solid #0DBA6C;
+}
+.jq-selectbox__select{
+	border: 1px solid #0DBA6C;
+	background: transparent;
+	text-shadow: none;
+	box-shadow: none;
+	padding: 0 45px 0 11px;
+	height: 43px;
+	border-radius: 0;
+	font-family: 'Montserrat';
+	font-size: 24px;
+	line-height: 41px;
+	color: #BCFFFB;
+	&:hover{
+		background: transparent;
+	}
+	&:active{
+		box-shadow: none;
+		background: transparent;
+	}
+}
 
+
+
+.jq-selectbox__select-text{
+	font-family: 'Montserrat';
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 41px;
+	color: #BCFFFB;
+	width: fit-content!important;
+	min-width: 200px;
+}
+.jq-selectbox__trigger{
+	border: none;
+	&-arrow{
+		background-image: url("../img/select-arrow.png");
+		background-size: 100%;
+		width: 23px;
+		height: 13px;
+		border: none;
+	}
+}
+
+.jq-selectbox__dropdown{
+	background: rgba(19, 8, 28, 0.9);
+	box-shadow: none;
+	font-family: 'Montserrat';
+	border: none;
+	border-left: 1px solid #0DBA6C;
+	border-right: 1px solid #0DBA6C;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 29px;
+	color: #0DBA6C;
+	border-radius: 0;
+}
+.jq-selectbox li{
+	font-family: 'Montserrat';
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 29px;
+	color: #0DBA6C;
+	border-bottom: 1px solid #0DBA6C;
+}
+.jq-selectbox li.selected {
+	background-color: rgba(19, 8, 28, 0.9);
+	color: #FFF;
+}
+.jq-selectbox li:hover{
+	background-color: #0DBA6C;
+	color: #FFF;
+}
 
 
 @import "componets/newyear2023-hero";
