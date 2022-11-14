@@ -1,7 +1,24 @@
 .newyear2023-content{
   margin: 0 0 103px;
-  &__brr{
-    text-align: center;
+
+  &.last{
+    position: relative;
+    padding-top: 232px;
+    &:before{
+      content: '';
+      position: absolute;
+      margin: 0 auto;
+      top: -222px;
+      left: 50%;
+      transform: translate(-50%,0);
+      background-image: url("../img/brr.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      width: 532px;
+      height: 483px;
+      pointer-events: none;
+      z-index: 10;
+    }
   }
   &__body{
     max-width: 1140px;
@@ -55,6 +72,25 @@
     }
   }
   @include r(767){
+    &.last{
+      position: relative;
+      padding-top: 51px;
+      &:before{
+        content: '';
+        position: absolute;
+        margin: 0 auto;
+        top: -177px;
+        left: 50%;
+        transform: translate(-50%,0);
+        background-image: url("../img/brr.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 293px;
+        height: 226px;
+        pointer-events: none;
+        z-index: 10;
+      }
+    }
     &__title{
       font-size: 24px;
       line-height: 30px;
