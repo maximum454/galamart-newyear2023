@@ -126,9 +126,6 @@ body{
 		background: transparent;
 	}
 }
-
-
-
 .jq-selectbox__select-text{
 	font-family: 'Montserrat';
 	font-weight: 300;
@@ -177,6 +174,53 @@ body{
 .jq-selectbox li:hover{
 	background-color: #0DBA6C;
 	color: #FFF;
+}
+@include r(1023){
+	.jq-selectbox{
+		width: 100%;
+		margin-top: 5px;
+	}
+	.jq-selectbox.focused .jq-selectbox__select{
+		border: 1px solid #0DBA6C;
+	}
+	.jq-selectbox__select{
+		height: 40px;
+		font-size: 14px;
+		line-height: 17px;
+	}
+	.jq-selectbox__select-text{
+		font-size: 14px;
+		line-height: 39px;
+	}
+
+	.jq-selectbox__dropdown{
+		font-size: 14px;
+		line-height: 17px;
+	}
+	.jq-selectbox li{
+		font-size: 14px;
+		line-height: 17px;
+		padding: 16px 10px;
+	}
+}
+@include r(767){
+	.jq-selectbox__dropdown{
+		position: fixed;
+		z-index: 10;
+		margin: 0 -20px;
+		bottom: 0!important;
+		top: auto!important;
+		border: none;
+		border-top: 1px solid #0DBA6C;
+		background: linear-gradient(180deg, #101D49 0%, #175854 100%) !important;
+		box-shadow: 0px -68px 57px rgba(24, 16, 41, 0.97);
+	}
+	.jq-selectbox li{
+		color: #BCFFFB;
+		&.selected {
+			background-color: transparent;
+		}
+	}
 }
 
 

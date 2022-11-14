@@ -80,6 +80,23 @@
   &__footer{
     margin-top: 74px;
   }
+  @include r(1023){
+    &__filter{
+      margin-bottom: 39px;
+      display: block;
+      padding: 0 20px;
+      &:before,
+      &:after {
+        display: none;
+      }
+      &-item{
+        display: block;
+        margin: 0 0 11px;
+        font-size: 14px;
+        line-height: 17px;
+      }
+    }
+  }
   @include r(767){
     margin-bottom: 100px;
     &__header{
@@ -100,6 +117,7 @@
         max-width: 120px;
       }
     }
+
     &__body{
       gap: 26px 9px;
     }
