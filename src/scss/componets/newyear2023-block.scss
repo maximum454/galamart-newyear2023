@@ -1,5 +1,5 @@
 .newyear2023-block{
-  margin-bottom: 165px;
+  margin-bottom: 159px;
   &__header{
     overflow: hidden;
     text-align: center;
@@ -18,14 +18,15 @@
       height: 1px;
       background-color: #0DBA6C;
       position: relative;
+      margin-top: 10px;
     }
     &:before {
       margin-left: -100%;
-      left: -160px;
+      left: -202px;
     }
     &:after {
       margin-right: -100%;
-      right: -160px;
+      right: -202px;
     }
     span {
       display: inline-block;
@@ -33,15 +34,15 @@
     }
   }
   &__body{
-    max-width: 1132px;
+    max-width: 1134px;
     padding: 0 16px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 58px 20px;
+    gap: 48px 20px;
   }
   &__footer{
-    margin-top: 70px;
+    margin-top: 74px;
   }
 }
 

@@ -1,0 +1,38 @@
+.newyear2023-hero{
+  margin-bottom: 11px;
+  padding-top: 79px;
+  &__body{
+    max-width: 1132px;
+    padding: 0 16px;
+    margin: 0 auto;
+  }
+  &__title-img{
+    margin-bottom: 15px;
+    margin-left: -33px;
+    img{
+    }
+  }
+  &__row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__text{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #BCFFFB;
+    max-width: 363px;
+  }
+  &__img{
+    margin-right: -56px;
+  }
+  @include r(767){
+    &__text{
+      min-width: 135px;
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+}
