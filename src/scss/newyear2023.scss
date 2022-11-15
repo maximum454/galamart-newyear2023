@@ -35,6 +35,7 @@ body{
 	background-image: url("../img/bg.png");
 	background-repeat: no-repeat;
 	background-size: 100%;
+	padding-bottom: 147px;
 }
 
 
@@ -177,6 +178,76 @@ body{
 .jq-selectbox li:hover{
 	background-color: #0DBA6C;
 	color: #FFF;
+}
+
+.decor{
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	z-index: -1;
+	pointer-events: none;
+	&.decor-1{
+		background-image: url("../img/brr-2.png");
+		width: 564px;
+		height: 694px;
+		top: 17.57%;
+		right: -111px;
+	}
+	&.decor-2{
+		background-image: url("../img/brr-3.png");
+		width: 948px;
+		height: 904px;
+		top: 27.5%;
+		right: -49px;
+		transform: rotate(95deg);
+	}
+	&.decor-3{
+		background-image: url("../img/brr-2.png");
+		width: 561px;
+		height: 674px;
+		top: 33.9%;
+		left: 28px;
+		transform: rotate(186deg);
+	}
+	&.decor-4{
+		background-image: url("../img/brr-3.png");
+		width: 948px;
+		height: 904px;
+		top: 58.5%;
+		right: -49px;
+		transform: rotate(95deg);
+	}
+	&.decor-5{
+		background-image: url("../img/brr-1.png");
+		width: 763px;
+		height: 540px;
+		top: 73.6%;
+		right: 65px;
+		transform: rotate(27deg);
+	}
+	&.decor-6{
+		background-image: url("../img/brr-3.png");
+		width: 760px;
+		height: 904px;
+		top: 83.1%;
+		left: -287px;
+		transform: rotate(108deg);
+	}
+	&.decor-7{
+		background-image: url("../img/brr-2.png");
+		width: 561px;
+		height: 674px;
+		top: 94.3%;
+		right: 27px;
+	}
+	&.decor-8{
+		background-image: url("../img/brr-3.png");
+		width: 1644px;
+		height: 1215px;
+		top: 96%;
+		left: 16%;
+		transform: rotate(168deg);
+	}
 }
 @include r(1023){
 	.jq-selectbox{
