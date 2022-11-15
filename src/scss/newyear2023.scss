@@ -21,9 +21,10 @@
 }
 .main>.container{
 	max-width:100%;
+	padding: 0;
 }
 body{
-	background-color: #13081C;
+	background-color: #13081C!important;
 	background-repeat: no-repeat;
 	background-position: top center;
 }
@@ -249,6 +250,7 @@ body{
 		transform: rotate(168deg);
 	}
 }
+
 @include r(1023){
 	.jq-selectbox{
 		width: 100%;
