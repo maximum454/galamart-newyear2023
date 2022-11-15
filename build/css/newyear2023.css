@@ -1075,7 +1075,7 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #BCFFFB;
   overflow: hidden;
-  background-image: url("../img/bg.png");
+  background-image: url("../img/bg.svg");
   background-repeat: no-repeat;
   background-size: 100%;
   padding-bottom: 147px;
@@ -1194,7 +1194,7 @@ body {
 }
 
 .jq-selectbox__trigger-arrow {
-  background-image: url("../img/select-arrow.png");
+  background-image: url("../img/select-arrow.svg");
   background-size: 100%;
   width: 23px;
   height: 13px;
