@@ -1714,6 +1714,10 @@ body {
     display: none !important;
   }
 
+  .wrp {
+    padding-bottom: 358px;
+  }
+
   .jq-selectbox__dropdown {
     position: fixed;
     z-index: 10;
@@ -1735,6 +1739,98 @@ body {
 
   .jq-selectbox li.selected {
     background-color: transparent;
+  }
+
+  .decor.decor-1 {
+    background-image: url("../img/brr-2-mobile.png");
+    width: 100px;
+    height: 317px;
+    top: 15.2%;
+    right: 0;
+  }
+
+  .decor.decor-2 {
+    background-image: url("../img/brr-3-mobile.png");
+    width: 116px;
+    height: 435px;
+    top: 21%;
+    left: 0;
+    right: 0;
+    -webkit-transform: rotate(0);
+        -ms-transform: rotate(0);
+            transform: rotate(0);
+  }
+
+  .decor.decor-3 {
+    background-image: url("../img/brr-2-mobile.png");
+    width: 100px;
+    height: 317px;
+    top: 27.9%;
+    right: 0;
+    left: auto;
+    -webkit-transform: rotate(0);
+        -ms-transform: rotate(0);
+            transform: rotate(0);
+  }
+
+  .decor.decor-4 {
+    background-image: url("../img/brr-3-mobile.png");
+    width: 116px;
+    height: 435px;
+    top: 39%;
+    left: 0;
+    right: 0;
+    -webkit-transform: rotate(0);
+        -ms-transform: rotate(0);
+            transform: rotate(0);
+  }
+
+  .decor.decor-5 {
+    background-image: url("../img/brr-2-mobile.png");
+    width: 100px;
+    height: 317px;
+    top: 46%;
+    right: 0;
+    left: auto;
+    -webkit-transform: rotate(0);
+        -ms-transform: rotate(0);
+            transform: rotate(0);
+  }
+
+  .decor.decor-6 {
+    background-image: url("../img/brr-3-mobile.png");
+    width: 116px;
+    height: 435px;
+    top: 62%;
+    left: 0;
+    right: 0;
+    -webkit-transform: rotate(0);
+        -ms-transform: rotate(0);
+            transform: rotate(0);
+  }
+
+  .decor.decor-7 {
+    background-image: url("../img/brr-2-mobile.png");
+    width: 100px;
+    height: 317px;
+    top: 70%;
+    right: 0;
+    left: auto;
+    -webkit-transform: rotate(0);
+        -ms-transform: rotate(0);
+            transform: rotate(0);
+  }
+
+  .decor.decor-8 {
+    background-image: url("../img/brr-4-mobile.png");
+    width: 393px;
+    height: 451px;
+    top: auto;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: rotate(0) translate(-50%, 0);
+        -ms-transform: rotate(0) translate(-50%, 0);
+            transform: rotate(0) translate(-50%, 0);
   }
 
   .newyear2023-hero {
